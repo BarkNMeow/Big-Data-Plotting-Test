@@ -31,14 +31,14 @@ export default function RootLayout({
                     className={`${geistSans.variable} ${geistMono.variable} antialiased flex w-screen h-screen`}
                 >
                     <nav className="p-4 bg-gray-100 w-fit">
-                        <h1 className="mb-2 text-2xl font-bold">Plotting Playground</h1>
+                        <h1 className="mb-2 text-2xl font-bold text-black">Plotting Playground</h1>
                         <p><a className="text-black hover:text-blue-500 transition-colors duration-100" href="./chartjs">Chart.js</a></p>
                         <p><a className="text-black hover:text-blue-500 transition-colors duration-100" href="./plotly">Plotly</a></p>
                         <p><a className="text-black hover:text-blue-500 transition-colors duration-100" href="./observable">Observable</a></p>
                     </nav>
                     <main className="flex-1 flex flex-col">
                         <ModeSelector />
-                        <div className="p-4 w-full flex-1">
+                        <div className="p-4 w-full flex-1 bg-white">
                             {children}
                         </div>
                     </main>
