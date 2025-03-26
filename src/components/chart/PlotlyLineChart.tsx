@@ -43,8 +43,8 @@ export default function PlotlyLineChart(props: {
                     },
                 ]}
                 layout={{
-                    width: size.width - 50, // Remove margin
-                    height: size.height - 60,
+                    width: size.width,
+                    height: size.height,
                     autosize: true,
                     margin: {
                         t: 30,
